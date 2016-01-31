@@ -1,0 +1,34 @@
+{
+    "name": "minhbang/laravel-option",
+    "description": "Laravel Option Package",
+    "keywords": [
+        "minhbang",
+        "laravel-option"
+    ],
+    "homepage": "https://github.com/minhbang/laravel-option",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minh Bang",
+            "email": "contact@minhbang.com",
+            "homepage": "http://minhbang.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minhbang\\Option\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Minhbang\\Option\\Test\\": "tests/"
+        }
+    }
+}
